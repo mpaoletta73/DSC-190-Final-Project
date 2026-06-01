@@ -59,4 +59,4 @@ sportsref sites
 sportsref --help
 sportsref scrape --help
 ```
-Go Dodgers! └A
+Go Dodgers! 🟦└A
