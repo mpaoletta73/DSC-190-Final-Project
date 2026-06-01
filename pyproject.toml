@@ -1,0 +1,17 @@
+[project]
+name = "sports-ref-scraper"
+version = "0.1.0"
+description = "A command-line tool to download tables from sports-reference.com sites as CSV files."
+readme = "README.md"
+authors = [
+    { name = "mpaoletta73" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+sportsref = "sports_ref_scraper.cli:cli"
+
+[build-system]
+requires = ["uv_build>=0.11.18,<0.12.0"]
+build-backend = "uv_build"
