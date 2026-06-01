@@ -7,7 +7,12 @@ authors = [
     { name = "mpaoletta73" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "click>=8.4.1",
+    "lxml>=6.1.1",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 sportsref = "sports_ref_scraper.cli:cli"
