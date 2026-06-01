@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from sports-ref-scraper!")
+"""Sports Reference Scraper package."""
