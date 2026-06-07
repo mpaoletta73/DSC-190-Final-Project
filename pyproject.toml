@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "mpaoletta73" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "click>=8.4.1",
